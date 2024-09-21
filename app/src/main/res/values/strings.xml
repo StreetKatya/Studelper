@@ -1,6 +1,25 @@
 <resources>
     <string name="app_name">Studelper</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Профиль</string>
+    <string name="title_dashboard">Главная</string>
+    <string name="title_notifications">Уведомления</string>
+    <string name="button_about">О Вузе</string>
+    <string name="buttom_mark">Мои оценки</string>
+    <string name="about_YRGU">ЯрГУ – университет, открытый современным и будущим возможностям,
+        который обеспечивает конкурентоспособность Ярославской области и Верхневолжского региона
+        за счет формирования человеческого и научно-технического потенциала, участия в
+        сбалансированном обновлении традиционных и развитии постиндустриальных отраслей экономики,
+        адаптации и трансфера лучших мировых управленческих и социальных практик. \n
+        \nНАШ АДРЕС:
+        \n150003, г. Ярославль, ул. Советская, д.14
+
+        \nтел: +7 (4852) 79-77-02
+
+        \nфакс: +7 (4852)25-57-87
+
+        \nemail: rectorat@uniyar.ac.ru
+        \nПодробнее на сайте: <u>https://www.uniyar.ac.ru/</u>
+    </string>
+
+
 </resources>
