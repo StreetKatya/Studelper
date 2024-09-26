@@ -1,5 +1,6 @@
 package com.example.studelper;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,6 +12,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+import androidx.room.Room;
 
 import com.example.studelper.databinding.ActivityMainBinding;
 
@@ -28,24 +30,26 @@ public class MainActivity extends AppCompatActivity {
 
         BottomNavigationView navView = findViewById(R.id.nav_view);
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
+                R.id.navigation_dashboard, R.id.navigation_home, R.id.navigation_notifications)
                 .build();
 
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        NavController navController = Navigation.findNavController(this,
+                R.id.nav_host_fragment_activity_main);
+        NavigationUI.setupActionBarWithNavController(this, navController,
+                appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
 
-        about = findViewById(R.id.about);
-//        about.setOnClickListener(new View.OnClickListener() {
-//                                     @Override
-//                                     public void onClick(View view) {
-//                                         // Действие при клике на кнопку
-//                                         navController.navigate(R.id.action_navigation_dashboard_to_navigation_about); //  Замените  на  ID  перехода  в  nav_graph.xml
-//                                     }
-//                                 });
-        mark = findViewById(R.id.mark);
+//        TimeTable db = Room.databaseBuilder(this, TimeTable.class, "TimeTable")
+//                .build();
+//        SQLiteDatabase db = getBaseContext().openOrCreateDatabase("studelper.db", MODE_PRIVATE,null);
 
 
     }
 
+    @Override
+    public boolean onSupportNavigateUp() {
+        NavController navController = Navigation.findNavController(this,
+                R.id.nav_host_fragment_activity_main);
+        return navController.navigateUp() || super.onSupportNavigateUp();
+    }
 }

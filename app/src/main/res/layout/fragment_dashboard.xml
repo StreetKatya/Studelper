@@ -7,7 +7,7 @@
     tools:context=".ui.dashboard.DashboardFragment">
 
     <Button
-        android:id="@+id/mark"
+        android:id="@+id/btn_mark"
         android:layout_width="149dp"
         android:layout_height="149dp"
         android:layout_marginStart="16dp"
@@ -15,11 +15,37 @@
         android:layout_marginEnd="34dp"
         android:text="@string/buttom_mark"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/about"
+        app:layout_constraintStart_toEndOf="@+id/btn_about"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/about"
+        android:id="@+id/btn_documents"
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="34dp"
+        android:text="Документы"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toEndOf="@+id/btn_about"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Scheme"
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="34dp"
+        android:text="Схема этажей"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toEndOf="@+id/btn_about"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_about"
         android:layout_width="149dp"
         android:layout_height="149dp"
         android:layout_marginStart="40dp"
@@ -27,4 +53,15 @@
         android:text="@string/button_about"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_schedule"
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="Расписание"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

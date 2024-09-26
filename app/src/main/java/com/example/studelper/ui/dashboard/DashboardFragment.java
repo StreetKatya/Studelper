@@ -10,8 +10,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import com.example.studelper.R;
+import com.example.studelper.databinding.ActivityMainBinding;
 import com.example.studelper.databinding.FragmentDashboardBinding;
 
 public class DashboardFragment extends Fragment {
@@ -20,15 +23,20 @@ public class DashboardFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        DashboardViewModel dashboardViewModel =
-                new ViewModelProvider(this).get(DashboardViewModel.class);
+//        View view = inflater.inflate(R.layout.fragment_dashboard, container, false);
+//        Button about = view.findViewById(R.id.about);
 
         binding = FragmentDashboardBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
 
-        //final TextView textView = binding.textDashboard;
-        //dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        return root;
+        binding.about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavController navController = Navigation.findNavController(view);
+                navController.navigate(R.id.action_navigation_dashboard_to_aboutVUZ);
+            }
+        });
+
+        return binding.getRoot();
     }
 
     @Override

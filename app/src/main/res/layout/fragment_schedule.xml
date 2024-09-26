@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/lesson1"
+            android:layout_width="291dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <TextView
+            android:id="@+id/time6"
+            android:layout_width="55dp"
+            android:layout_height="48dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="403dp" />
+
+        <TextView
+            android:id="@+id/auditory6"
+            android:layout_width="59dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="353dp"
+            tools:layout_editor_absoluteY="403dp" />
+
+        <TextView
+            android:id="@+id/lesson6"
+            android:layout_width="291dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="403dp" />
+
+        <TextView
+            android:id="@+id/lesson5"
+            android:layout_width="291dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <TextView
+            android:id="@+id/auditory5"
+            android:layout_width="59dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="351dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <TextView
+            android:id="@+id/time5"
+            android:layout_width="55dp"
+            android:layout_height="48dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <TextView
+            android:id="@+id/time4"
+            android:layout_width="55dp"
+            android:layout_height="48dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+        <TextView
+            android:id="@+id/auditory4"
+            android:layout_width="59dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="353dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+        <TextView
+            android:id="@+id/lesson4"
+            android:layout_width="291dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+        <TextView
+            android:id="@+id/time3"
+            android:layout_width="55dp"
+            android:layout_height="48dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="210dp" />
+
+        <TextView
+            android:id="@+id/auditory3"
+            android:layout_width="59dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="351dp"
+            tools:layout_editor_absoluteY="210dp" />
+
+        <TextView
+            android:id="@+id/lesson3"
+            android:layout_width="291dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="210dp" />
+
+        <TextView
+            android:id="@+id/lesson2"
+            android:layout_width="291dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <TextView
+            android:id="@+id/auditory2"
+            android:layout_width="59dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="351dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="55dp"
+            android:layout_height="48dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <TextView
+            android:id="@+id/auditory1"
+            android:layout_width="59dp"
+            android:layout_height="47dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="353dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <TextView
+            android:id="@+id/time1"
+            android:layout_width="55dp"
+            android:layout_height="48dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="86dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

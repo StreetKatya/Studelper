@@ -4,4 +4,100 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment"/>
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/StudCard_text"
+            android:layout_width="258dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="28dp"
+            android:text="TextView"
+            app:layout_constraintStart_toEndOf="@+id/StudCard"
+            app:layout_constraintTop_toBottomOf="@+id/Group_text" />
+
+        <TextView
+            android:id="@+id/Group_text"
+            android:layout_width="258dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="25dp"
+            android:text="TextView"
+            app:layout_constraintStart_toEndOf="@+id/Group"
+            app:layout_constraintTop_toBottomOf="@+id/Faculty_text" />
+
+        <TextView
+            android:id="@+id/Faculty_text"
+            android:layout_width="258dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="23dp"
+            android:text="TextView"
+            app:layout_constraintStart_toEndOf="@+id/Fuculty"
+            app:layout_constraintTop_toBottomOf="@+id/FIO_text" />
+
+        <TextView
+            android:id="@+id/FIO_text"
+            android:layout_width="258dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="33dp"
+            android:text="TextView"
+            app:layout_constraintStart_toEndOf="@+id/FIO"
+            app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+        <TextView
+            android:id="@+id/StudCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Group" />
+
+        <TextView
+            android:id="@+id/Group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Fuculty" />
+
+        <TextView
+            android:id="@+id/Fuculty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="22dp"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/FIO" />
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/FIO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="160dp"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
