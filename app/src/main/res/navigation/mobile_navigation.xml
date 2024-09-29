@@ -19,6 +19,18 @@
         <action
             android:id="@+id/action_navigation_dashboard_to_aboutVUZ"
             app:destination="@id/aboutVUZ" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_documentFragment"
+            app:destination="@id/documentFragment" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_scheduleFragment"
+            app:destination="@id/scheduleFragment" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_addToDb"
+            app:destination="@id/addToDb" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_floorPlanFragment"
+            app:destination="@id/floorPlanFragment" />
     </fragment>
 
     <fragment
@@ -32,5 +44,25 @@
         android:name="com.example.studelper.aboutVUZFragment"
         android:label="@string/button_about"
         tools:layout="@layout/fragment_about_v_u_z"/>
+    <fragment
+        android:id="@+id/documentFragment"
+        android:name="com.example.studelper.DocumentFragment"
+        android:label="fragment_document"
+        tools:layout="@layout/fragment_document" />
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.example.studelper.ScheduleFragment"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/addToDb"
+        android:name="com.example.studelper.AddToDb"
+        android:label="fragment_add_to_db"
+        tools:layout="@layout/fragment_add_to_db" />
+    <fragment
+        android:id="@+id/floorPlanFragment"
+        android:name="com.example.studelper.FloorPlanFragment"
+        android:label="fragment_floor_plan"
+        tools:layout="@layout/fragment_floor_plan" />
 
 </navigation>

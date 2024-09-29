@@ -44,15 +44,14 @@ public class AddToDb extends Fragment {
         binding.buttonAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int T_ID = Integer.parseInt(binding.editTextText.getText().toString());
-                int G_ID = Integer.parseInt(binding.editTextText2.getText().toString());
+                String T_ID = binding.editTextText.getText().toString();
+                String G_ID = binding.editTextText2.getText().toString();
                 String SUB_NAME = binding.editTextText3.getText().toString();
-                String T_START = binding.editTextText4.getText().toString();
-                String T_END = binding.editTextText5.getText().toString();
                 String CLASS = binding.editTextText6.getText().toString();
                 int C_V = Integer.parseInt(binding.editTextText7.getText().toString());
+                int N_L = Integer.parseInt(binding.editTextText9.getText().toString());
                 String DAY = binding.editTextText8.getText().toString();
-                DataTime dt = new DataTime(SUB_NAME,T_ID,G_ID,DAY,T_START,T_END,CLASS,C_V);
+                DataTime dt = new DataTime(SUB_NAME,T_ID,G_ID,DAY,CLASS,C_V, N_L);
 
                 dbHelper.Add(dt);
             }
@@ -62,10 +61,16 @@ public class AddToDb extends Fragment {
             public void onClick(View view) {
                 LinkedList<DataTime> list = dbHelper.GetAll();
                 String text = "";
-                for(DataTime d : list){
-                    text = text + d.TIME_START+"-"+d.TIME_END+" Group: "+d.GROUP_ID+" Lesson: "
-                            +d.SUBJECT_NAME+" in "+d.CLASSROOM+"\n";
+                for(DataTime data : list){
+                    text = text +" Group: "+data.GROUP_NAME+" Lesson: "
+                            +data.SUBJECT_NAME+" in "+data.CLASSROOM+" of "+data.TEACHER_NAME+"\n";
                 }
+            }
+        });
+        binding.buttonDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dbHelper.DeleteAll();
             }
         });
 //        return inflater.inflate(R.layout.fragment_add_to_db, container, false);

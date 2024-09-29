@@ -28,11 +28,39 @@ public class DashboardFragment extends Fragment {
 
         binding = FragmentDashboardBinding.inflate(inflater, container, false);
 
-        binding.about.setOnClickListener(new View.OnClickListener() {
+        binding.btnAbout.setOnClickListener(new View.OnClickListener() { //О Вузе
             @Override
             public void onClick(View view) {
                 NavController navController = Navigation.findNavController(view);
                 navController.navigate(R.id.action_navigation_dashboard_to_aboutVUZ);
+            }
+        });
+        binding.btnDocuments.setOnClickListener(new View.OnClickListener() { //Документы
+            @Override
+            public void onClick(View view) {
+                NavController navController = Navigation.findNavController(view);
+                navController.navigate(R.id.action_navigation_dashboard_to_documentFragment);
+            }
+        });
+        binding.btnScheme.setOnClickListener(new View.OnClickListener() { //Схема этажей
+            @Override
+            public void onClick(View view) {
+                NavController navController = Navigation.findNavController(view);
+                navController.navigate(R.id.action_navigation_dashboard_to_floorPlanFragment);
+            }
+        });
+        binding.btnSchedule.setOnClickListener(new View.OnClickListener() { //Расписание
+            @Override
+            public void onClick(View view) {
+                NavController navController = Navigation.findNavController(view);
+                navController.navigate(R.id.action_navigation_dashboard_to_scheduleFragment);
+            }
+        });
+        binding.btnDB.setOnClickListener(new View.OnClickListener() { //База данных
+            @Override
+            public void onClick(View view) {
+                NavController navController = Navigation.findNavController(view);
+                navController.navigate(R.id.action_navigation_dashboard_to_addToDb);
             }
         });
 
