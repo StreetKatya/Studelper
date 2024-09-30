@@ -56,13 +56,13 @@ public class DashboardFragment extends Fragment {
                 navController.navigate(R.id.action_navigation_dashboard_to_scheduleFragment);
             }
         });
-        binding.btnDB.setOnClickListener(new View.OnClickListener() { //База данных
-            @Override
-            public void onClick(View view) {
-                NavController navController = Navigation.findNavController(view);
-                navController.navigate(R.id.action_navigation_dashboard_to_addToDb);
-            }
-        });
+//        binding.btnDB.setOnClickListener(new View.OnClickListener() { //База данных
+//            @Override
+//            public void onClick(View view) {
+//                NavController navController = Navigation.findNavController(view);
+//                navController.navigate(R.id.action_navigation_dashboard_to_addToDb);
+//            }
+//        });
 
         return binding.getRoot();
     }
