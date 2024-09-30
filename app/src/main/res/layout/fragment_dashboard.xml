@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.DashboardFragment">
+    tools:context=".ui.dashboard.DashboardFragment"
+    tools:visibility="visible">
 
     <Button
         android:id="@+id/btn_DB"
@@ -18,60 +19,55 @@
 
     <Button
         android:id="@+id/btn_mark"
-        android:layout_width="149dp"
-        android:layout_height="149dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="34dp"
-        android:text="@string/buttom_mark"
+        android:layout_marginStart="9sp"
+        android:layout_marginTop="4sp"
+        android:layout_marginEnd="48sp"
+        android:text="@string/button_mark"
+        style="@style/BlueButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_about"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_documents"
-        android:layout_width="149dp"
-        android:layout_height="149dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="172dp"
-        android:layout_marginEnd="34dp"
-        android:text="Документы"
+        android:layout_marginStart="9sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="48sp"
+        android:text="@string/button_documents"
+        style="@style/BlueButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toEndOf="@+id/btn_about"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/btn_schedule"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mark" />
 
     <Button
         android:id="@+id/btn_Scheme"
-        android:layout_width="149dp"
-        android:layout_height="149dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="344dp"
-        android:layout_marginEnd="34dp"
-        android:text="Схема этажей"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="48sp"
+        android:text="@string/button_floor_plan"
+        style="@style/BlueButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toEndOf="@+id/btn_about"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_documents" />
 
     <Button
         android:id="@+id/btn_about"
-        android:layout_width="149dp"
-        android:layout_height="149dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginStart="48sp"
+        android:layout_marginTop="4sp"
+        android:layout_marginEnd="8sp"
         android:text="@string/button_about"
+        style="@style/BlueButton"
+        app:layout_constraintEnd_toStartOf="@+id/btn_mark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_schedule"
-        android:layout_width="149dp"
-        android:layout_height="149dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="172dp"
-        android:text="Расписание"
+        android:layout_marginStart="48sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="8sp"
+        android:text="@string/button_timesheet"
+        style="@style/BlueButton"
+        app:layout_constraintEnd_toStartOf="@+id/btn_documents"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_about" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

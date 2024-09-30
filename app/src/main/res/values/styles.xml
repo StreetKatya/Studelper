@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BlueButton">
+        <item name="android:layout_width">149sp</item>
+        <item name="android:layout_height">149sp</item>
+        <item name="android:backgroundTint">@color/blue</item>
+    </style>
+
+<!--    <style name="toolbar_color" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; ... другие настройки ... &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/toolbar_color</item>-->
+<!--        &lt;!&ndash; Цвет фона приложения &ndash;&gt;-->
+<!--        <item name="android:windowBackground">#FF0000</item>-->
+<!--    </style>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/AppTheme</item>
+    </style>
+
+
+</resources>

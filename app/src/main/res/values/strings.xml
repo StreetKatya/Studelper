@@ -4,7 +4,10 @@
     <string name="title_dashboard">Главная</string>
     <string name="title_notifications">Уведомления</string>
     <string name="button_about">О Вузе</string>
-    <string name="buttom_mark">Мои оценки</string>
+    <string name="button_mark">Мои оценки</string>
+    <string name="button_timesheet">Расписание</string>
+    <string name="button_floor_plan">Схема этажей</string>
+    <string name="button_documents">Документы</string>
     <string name="about_YRGU">ЯрГУ – университет, открытый современным и будущим возможностям,
         который обеспечивает конкурентоспособность Ярославской области и Верхневолжского региона
         за счет формирования человеческого и научно-технического потенциала, участия в
