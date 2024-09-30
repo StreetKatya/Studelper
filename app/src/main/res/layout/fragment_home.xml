@@ -8,56 +8,19 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/StudCard_text"
-            android:layout_width="258dp"
-            android:layout_height="18dp"
-            android:layout_marginTop="22dp"
-            android:background="@color/white"
-            android:text="КБ-51СО"
-            app:layout_constraintStart_toEndOf="@+id/StudCard"
-            app:layout_constraintTop_toBottomOf="@+id/Group_text" />
-
-        <TextView
-            android:id="@+id/Group_text"
-            android:layout_width="258dp"
-            android:layout_height="18dp"
-            android:layout_marginTop="22dp"
-            android:background="@color/white"
-            android:text="Математический"
-            app:layout_constraintStart_toEndOf="@+id/Group"
-            app:layout_constraintTop_toBottomOf="@+id/Faculty_text" />
-
-        <TextView
-            android:id="@+id/Faculty_text"
-            android:layout_width="258dp"
-            android:layout_height="18dp"
-            android:layout_marginTop="22dp"
-            android:background="@color/white"
-            android:text="1027564"
-            app:layout_constraintStart_toEndOf="@+id/Fuculty"
-            app:layout_constraintTop_toBottomOf="@+id/FIO_text" />
-
-        <TextView
-            android:id="@+id/FIO_text"
-            android:layout_width="258dp"
-            android:layout_height="18dp"
-            android:layout_marginTop="160dp"
-            android:background="@color/white"
-            android:text="Котов Котан Котеевич "
-            app:layout_constraintStart_toEndOf="@+id/FIO"
-            app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/StudCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="22dp"
-            android:background="@color/white"
-            android:text="Группа:"
+            android:text="Группа: КБ-51СО"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Group" />
 
@@ -65,10 +28,9 @@
             android:id="@+id/Group"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="22dp"
-            android:background="@color/white"
-            android:text="Факультет:"
+            android:text="Факультет: Математический"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Fuculty" />
 
@@ -76,10 +38,9 @@
             android:id="@+id/Fuculty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="22dp"
-            android:background="@color/white"
-            android:text="Студ №:"
+            android:text="Студ №: 1027564"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/FIO" />
 
@@ -87,19 +48,18 @@
             android:id="@+id/profile_image"
             android:layout_width="150sp"
             android:layout_height="150sp"
+            android:src="@drawable/cat"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/cat" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/FIO"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="160dp"
-            android:background="@color/white"
-            android:text="Ф.И.О:"
+            android:text="Ф.И.О: Котов Котан Котеевич "
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

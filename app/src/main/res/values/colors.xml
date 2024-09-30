@@ -14,4 +14,5 @@
     <color name="text">#FFFFFFFF</color>
     <color name="AppTheme">#E9B36D6D</color>
     <color name="BottonNav">#FFBEBE</color>
+    <color name="TextBar">#807070</color>
 </resources>

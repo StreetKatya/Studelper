@@ -7,66 +7,57 @@
     tools:context=".ui.dashboard.DashboardFragment"
     tools:visibility="visible">
 
-    <Button
-        android:id="@+id/btn_DB"
-        android:layout_width="60dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="76dp"
-        android:text="DB"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+<!--    <Button-->
+<!--        android:id="@+id/btn_DB"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginBottom="76dp"-->
+<!--        android:text="DB"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
 
     <Button
-        android:id="@+id/btn_mark"
-        android:layout_marginStart="9sp"
-        android:layout_marginTop="4sp"
-        android:layout_marginEnd="48sp"
-        android:text="@string/button_mark"
+        android:id="@+id/btn_documents"
         style="@style/BlueButtonDashboard"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="48sp"
+        android:text="@string/button_documents"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_about"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_documents"
-        android:layout_marginStart="9sp"
-        android:layout_marginTop="16sp"
-        android:layout_marginEnd="48sp"
-        android:text="@string/button_documents"
-        style="@style/BlueButtonDashboard"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_schedule"
-        app:layout_constraintTop_toBottomOf="@+id/btn_mark" />
-
-    <Button
         android:id="@+id/btn_Scheme"
+        style="@style/BlueButtonDashboard"
+        android:layout_marginStart="9dp"
         android:layout_marginTop="16sp"
         android:layout_marginEnd="48sp"
         android:text="@string/button_floor_plan"
-        style="@style/BlueButtonDashboard"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_schedule"
         app:layout_constraintTop_toBottomOf="@+id/btn_documents" />
 
     <Button
         android:id="@+id/btn_about"
+        style="@style/BlueButtonDashboard"
         android:layout_marginStart="48sp"
         android:layout_marginTop="4sp"
-        android:layout_marginEnd="8sp"
+        android:layout_marginEnd="8dp"
         android:text="@string/button_about"
-        style="@style/BlueButtonDashboard"
-        app:layout_constraintEnd_toStartOf="@+id/btn_mark"
+        app:layout_constraintEnd_toStartOf="@+id/btn_documents"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_schedule"
+        style="@style/BlueButtonDashboard"
         android:layout_marginStart="48sp"
         android:layout_marginTop="16sp"
-        android:layout_marginEnd="8sp"
+        android:layout_marginEnd="8dp"
         android:text="@string/button_timesheet"
-        style="@style/BlueButtonDashboard"
-        app:layout_constraintEnd_toStartOf="@+id/btn_documents"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Scheme"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_about" />
 
