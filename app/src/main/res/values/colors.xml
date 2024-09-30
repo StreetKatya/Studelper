@@ -8,8 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#2196F3</color>
-    <color name="background">#A4A4A4</color>
+    <color name="background">#D1BFBF</color>
     <color name="toolbar_color">#FF0000</color>
     <color name="text">#FFFFFFFF</color>
     <color name="AppTheme">#006607</color>
+    <color name="BottonNav">#FFBEBE</color>
 </resources>

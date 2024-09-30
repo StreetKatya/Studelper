@@ -23,7 +23,7 @@
         android:layout_marginTop="4sp"
         android:layout_marginEnd="48sp"
         android:text="@string/button_mark"
-        style="@style/BlueButton"
+        style="@style/BlueButtonDashboard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_about"
         app:layout_constraintTop_toTopOf="parent" />
@@ -34,7 +34,7 @@
         android:layout_marginTop="16sp"
         android:layout_marginEnd="48sp"
         android:text="@string/button_documents"
-        style="@style/BlueButton"
+        style="@style/BlueButtonDashboard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_schedule"
         app:layout_constraintTop_toBottomOf="@+id/btn_mark" />
@@ -44,7 +44,7 @@
         android:layout_marginTop="16sp"
         android:layout_marginEnd="48sp"
         android:text="@string/button_floor_plan"
-        style="@style/BlueButton"
+        style="@style/BlueButtonDashboard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_documents" />
 
@@ -54,7 +54,7 @@
         android:layout_marginTop="4sp"
         android:layout_marginEnd="8sp"
         android:text="@string/button_about"
-        style="@style/BlueButton"
+        style="@style/BlueButtonDashboard"
         app:layout_constraintEnd_toStartOf="@+id/btn_mark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -65,7 +65,7 @@
         android:layout_marginTop="16sp"
         android:layout_marginEnd="8sp"
         android:text="@string/button_timesheet"
-        style="@style/BlueButton"
+        style="@style/BlueButtonDashboard"
         app:layout_constraintEnd_toStartOf="@+id/btn_documents"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_about" />

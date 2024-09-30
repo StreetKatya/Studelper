@@ -12,20 +12,18 @@
 
         <Button
             android:id="@+id/btn_webtable"
-            android:layout_width="369dp"
-            android:layout_height="62dp"
             android:layout_marginTop="9dp"
             android:text="Узнать готовность справки"
+            style="@style/BlueButtonDocument"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_webref" />
 
         <Button
             android:id="@+id/btn_webref"
-            android:layout_width="369dp"
-            android:layout_height="62dp"
             android:layout_marginTop="16dp"
             android:text="Заказать справку"
+            style="@style/BlueButtonDocument"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
