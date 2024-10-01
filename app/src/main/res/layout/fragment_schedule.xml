@@ -13,145 +13,107 @@
         <TextView
             android:id="@+id/lesson1"
             android:layout_width="291dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="62dp"
-            tools:layout_editor_absoluteY="86dp" />
-
-        <TextView
-            android:id="@+id/time6"
-            android:layout_width="55dp"
             android:layout_height="48dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="7dp"
-            tools:layout_editor_absoluteY="403dp" />
-
-        <TextView
-            android:id="@+id/auditory6"
-            android:layout_width="59dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="353dp"
-            tools:layout_editor_absoluteY="403dp" />
-
-        <TextView
-            android:id="@+id/lesson6"
-            android:layout_width="291dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="62dp"
-            tools:layout_editor_absoluteY="403dp" />
-
-        <TextView
-            android:id="@+id/lesson5"
-            android:layout_width="291dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="60dp"
-            tools:layout_editor_absoluteY="341dp" />
-
-        <TextView
-            android:id="@+id/auditory5"
-            android:layout_width="59dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="351dp"
-            tools:layout_editor_absoluteY="341dp" />
-
-        <TextView
-            android:id="@+id/time5"
-            android:layout_width="55dp"
-            android:layout_height="48dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="5dp"
-            tools:layout_editor_absoluteY="341dp" />
-
-        <TextView
-            android:id="@+id/time4"
-            android:layout_width="55dp"
-            android:layout_height="48dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="7dp"
-            tools:layout_editor_absoluteY="277dp" />
-
-        <TextView
-            android:id="@+id/auditory4"
-            android:layout_width="59dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="353dp"
-            tools:layout_editor_absoluteY="277dp" />
-
-        <TextView
-            android:id="@+id/lesson4"
-            android:layout_width="291dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="62dp"
-            tools:layout_editor_absoluteY="277dp" />
+            android:layout_marginTop="86dp"
+            android:text="Методы алгебраической геометрии в криптографии                                                          Тимофеева Н. В."
+            android:elevation="5dp"
+            app:layout_constraintStart_toEndOf="@+id/time1"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/time3"
             android:layout_width="55dp"
             android:layout_height="48dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="5dp"
-            tools:layout_editor_absoluteY="210dp" />
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="14dp"
+            android:text="13:20-   14:55"
+            android:elevation="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/time2" />
 
         <TextView
             android:id="@+id/auditory3"
             android:layout_width="59dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="351dp"
-            tools:layout_editor_absoluteY="210dp" />
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:text="420"
+            android:elevation="5dp"
+            app:layout_constraintStart_toEndOf="@+id/lesson3"
+            app:layout_constraintTop_toBottomOf="@+id/auditory2" />
 
         <TextView
             android:id="@+id/lesson3"
             android:layout_width="291dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="60dp"
-            tools:layout_editor_absoluteY="210dp" />
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:text="Криптографические протоколы                 Белов А. Р."
+            android:elevation="5dp"
+            app:layout_constraintStart_toEndOf="@+id/time3"
+            app:layout_constraintTop_toBottomOf="@+id/lesson2" />
 
         <TextView
             android:id="@+id/lesson2"
             android:layout_width="291dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="60dp"
-            tools:layout_editor_absoluteY="145dp" />
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:text="Криптографические протоколы                 Белов А. Р."
+            android:elevation="5dp"
+            app:layout_constraintStart_toEndOf="@+id/time2"
+            app:layout_constraintTop_toBottomOf="@+id/lesson1" />
 
         <TextView
             android:id="@+id/auditory2"
             android:layout_width="59dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="351dp"
-            tools:layout_editor_absoluteY="145dp" />
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:text="420"
+            android:elevation="5dp"
+            app:layout_constraintStart_toEndOf="@+id/lesson2"
+            app:layout_constraintTop_toBottomOf="@+id/auditory1" />
 
         <TextView
             android:id="@+id/time2"
             android:layout_width="55dp"
             android:layout_height="48dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="5dp"
-            tools:layout_editor_absoluteY="145dp" />
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="14dp"
+            android:text="10:45-   12:20"
+            android:elevation="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/time1" />
 
         <TextView
             android:id="@+id/auditory1"
             android:layout_width="59dp"
-            android:layout_height="47dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="353dp"
-            tools:layout_editor_absoluteY="86dp" />
+            android:layout_height="48dp"
+            android:layout_marginTop="86dp"
+            android:text="414"
+            android:elevation="5dp"
+            app:layout_constraintStart_toEndOf="@+id/lesson1"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/time1"
             android:layout_width="55dp"
             android:layout_height="48dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="7dp"
-            tools:layout_editor_absoluteY="86dp" />
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="86dp"
+            android:text="9:00-   10:35"
+            android:elevation="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/lesson1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="162dp"
+            android:text="Знаменатель"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
