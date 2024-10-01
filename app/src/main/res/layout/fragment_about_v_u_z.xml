@@ -24,6 +24,7 @@
         android:layout_width="384dp"
         android:layout_height="452dp"
         android:text="@string/about_YRGU"
+        android:textColorLink="@color/toolbar_color"
         android:autoLink="web"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
